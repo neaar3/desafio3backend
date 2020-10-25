@@ -1,7 +1,7 @@
 const logger = (ctx, next) => {
     console.log(ctx.method, ctx.url);
 
-    next();
+    return next();
 }
 
 module.exports = logger;

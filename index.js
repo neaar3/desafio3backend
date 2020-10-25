@@ -1,9 +1,10 @@
 const Koa = require('koa');
+const cors = require('@koa/cors');
 const bodyparser = require('koa-bodyparser');
 const logger = require("./src/middlewares/logger");
 const server = new Koa();
 const router = require('./src/routes');
-const cors = require('@koa/cors')
+
 
 const PORT = process.env.PORT || 8081;
 
