@@ -40,7 +40,7 @@ const brasoes = [
         url: 'https://s.glbimg.com/es/sde/f/organizacoes/2018/06/10/optimised.svg'
     },
     { 
-        time: 'Goias',
+        time: 'Goiás',
         url: 'https://s.glbimg.com/es/sde/f/organizacoes/2019/05/01/Goias_SVG.svg'
     },
     { 
